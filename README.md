@@ -1,3 +1,7 @@
+Here is your current `README.md` for the **WeatherApp Extension**:
+
+---
+
 # 🌤️ WeatherApp Extension
 
 A lightweight and responsive browser extension that displays current weather information for your location or any city you choose. Built using HTML, CSS, JavaScript, and the OpenWeatherMap API.
@@ -13,14 +17,20 @@ A lightweight and responsive browser extension that displays current weather inf
 ## 🚀 Installation
 
 1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/AtulYadavCodes/weatherappextension git
-   ```
 2. Open Google Chrome and go to `chrome://extensions/`
 3. Enable **Developer mode** (top right toggle)
 4. Click **Load unpacked**
 5. Select the cloned extension folder
+6. The extension will appear in your Chrome extensions bar
+
+## 🔑 API Key Setup
+
+1. Get a free API key from [OpenWeatherMap](https://openweathermap.org/api)
+2. Open `script.js` and replace the placeholder:
+
+   ```js
+   const apiKey = "YOUR_API_KEY_HERE";
+   ```
 
 ## 📂 File Structure
 
@@ -61,3 +71,5 @@ MIT License. Free to use and modify.
 ---
 
 🔗 **Made with ❤️ by Atul**
+
+---
