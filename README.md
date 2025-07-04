@@ -15,7 +15,7 @@ A lightweight and responsive browser extension that displays current weather inf
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/yourusername/weatherappextension.git
+   git clone https://github.com/AtulYadavCodes/weatherappextension.git
    ```
 2. Open Google Chrome and go to `chrome://extensions/`
 3. Enable **Developer mode** (top right toggle)
